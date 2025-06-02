@@ -1,4 +1,3 @@
-"""
 # License Plate Recognition with Flask, Roboflow, and Tesseract OCR
 
 This project is a web application built using Flask that allows users to upload vehicle images, automatically detects the license plates using a Roboflow-trained object detection model, and extracts text from the license plates using Tesseract OCR.
@@ -64,13 +63,13 @@ This project is a web application built using Flask that allows users to upload 
 
 project/
 ├── static/
-│   ├── uploads/       # Uploaded original images
-│   └── cropped/       # Cropped license plate images
+│   ├── uploads/  
+│   └── cropped/  
 ├── templates/
-│   └── index.html     # HTML template
-├── app.py             # Main Flask application
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
+│   └── index.html  
+├── app.py  
+├── requirements.txt  
+└── README.md
 
 ## Example Workflow
 
@@ -79,5 +78,3 @@ project/
 3. Detected plate is cropped and processed with OpenCV.
 4. Tesseract OCR extracts the text from the plate.
 5. The result (plate image + extracted text) is shown on the webpage.
-
-"""
