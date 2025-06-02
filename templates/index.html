@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biển Số Xe Nhận Diện</title>
+</head>
+<body>
+    <h1>Upload ảnh biển số xe</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if image %}
+        <h2>Biển số xe đã nhận diện:</h2>
+        <div>
+            <!-- Sử dụng url_for để lấy đúng đường dẫn ảnh -->
+            <img src="{{ url_for('static', filename='cropped/' + image) }}" alt="Cropped Image">
+            <p>Ký tự của biển số: {{ text }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
