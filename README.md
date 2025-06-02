@@ -61,14 +61,15 @@ This project is a web application built using Flask that allows users to upload 
 
 ## Folder Structure
 
-project/
+duan/
+│
 ├── static/
 │   ├── uploads/  
 │   └── cropped/  
 ├── templates/
 │   └── index.html  
-├── app.py  
-├── requirements.txt  
+├── app.py 
+│
 └── README.md
 
 ## Example Workflow
