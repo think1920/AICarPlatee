@@ -59,19 +59,6 @@ This project is a web application built using Flask that allows users to upload 
    Open your browser and go to:  
    http://127.0.0.1:5000
 
-## Folder Structure
-
-duan/
-│
-├── static/
-│   ├── uploads/  
-│   └── cropped/  
-├── templates/
-│   └── index.html  
-├── app.py 
-│
-└── README.md
-
 ## Example Workflow
 
 1. User uploads a vehicle image.
