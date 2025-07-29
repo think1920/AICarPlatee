@@ -9,8 +9,8 @@ import pytesseract
 app = Flask(__name__)
 
 # Kết nối Roboflow
-rf = Roboflow(api_key="kHpyhAFP3XR7pqgXxN2D")
-project = rf.workspace().project("plate-o8yd6")
+rf = Roboflow(api_key="xxxx")
+project = rf.workspace().project("xxx")
 model = project.version(2).model
 
 # Thư mục lưu ảnh tải lên và ảnh cắt
