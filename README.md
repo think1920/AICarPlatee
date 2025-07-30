@@ -23,14 +23,14 @@ This project is a web application built using Flask that allows users to upload 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/license-plate-recognition.git
+   [git clone https://github.com/your-username/license-plate-recognition.git](https://github.com/think1920/AICarPlatee.git)
    cd license-plate-recognition
    ```
 
 2. **Install dependencies**:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt (skip it if no file)
    ```
 
 3. **Configure Tesseract**:
